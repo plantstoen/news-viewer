@@ -26,7 +26,7 @@ const NewsList = ({ category }) => {
   }, [category]);
 
   if (loading) {
-    return <NewsListBlock>대기 중...</NewsListBlock>;
+    return <NewsListBlock>loading...</NewsListBlock>;
   }
 
   if (!response) {

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Gelasio&display=swap');
+
+.topbanner {
+  width: 768px;
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 3rem;
+  margin: 0 auto;
+  &__maintext {
+    font-family: 'Gelasio', serif;
+    font-size: 50px;
+  }
+}

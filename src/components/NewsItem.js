@@ -22,12 +22,15 @@ const NewsItemBlock = styled.div`
     p {
       margin: 0;
       line-height: 1.5;
-      margin-top: 0.5rem;
+      margin-top: 0.4rem;
       white-space: normal;
     }
   }
   & + & {
     margin-top: 3rem;
+  }
+  &:hover {
+    background-color: rgb(240, 240, 240);
   }
 `;
 
